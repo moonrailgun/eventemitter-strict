@@ -1,0 +1,40 @@
+{
+  "name": "eventemitter-ts",
+  "version": "1.0.0",
+  "description": "A eventemitter with typescript full support",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "repository": "https://github.com/primus/eventemitter3.git",
+  "scripts": {
+    "prepare": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "EventEmitter",
+    "EventEmitter2",
+    "EventEmitter3",
+    "Events",
+    "addEventListener",
+    "addListener",
+    "on",
+    "off",
+    "emit",
+    "emits",
+    "emitter",
+    "event",
+    "once",
+    "pubsub",
+    "pub/sub",
+    "publish",
+    "reactor",
+    "subscribe"
+  ],
+  "author": "moonrailgun <moonrailgun@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.7.3"
+  }
+}
