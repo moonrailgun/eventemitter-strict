@@ -1,12 +1,14 @@
 {
-  "name": "eventemitter-ts",
-  "version": "1.0.0",
+  "name": "eventemitter-strict",
+  "version": "1.0.1",
   "description": "A eventemitter with typescript full support",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
-  "repository": "https://github.com/primus/eventemitter3.git",
+  "author": "moonrailgun <moonrailgun@gmail.com>",
+  "repository": "https://github.com/moonrailgun/eventemitter-strict.git",
   "scripts": {
     "prepare": "tsc",
+    "release": "npm publish --registry https://registry.npmjs.com/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "files": [
@@ -32,7 +34,6 @@
     "reactor",
     "subscribe"
   ],
-  "author": "moonrailgun <moonrailgun@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "typescript": "^4.7.3"

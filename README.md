@@ -1,8 +1,8 @@
-# eventemitter-ts
+# eventemitter-strict
 
 A eventemitter with typescript full support
 
-`eventemitter-ts` is a eventemitter with typescript full support. The module is API compatible with the EventEmitter that ships by default with Node.js.
+`eventemitter-strict` is a eventemitter with typescript full support. The module is API compatible with the EventEmitter that ships by default with Node.js.
 
 Allow to type safe definition your eventemitter
 
@@ -15,13 +15,13 @@ Allow to type safe definition your eventemitter
 ## Install
 
 ```bash
-npm install eventemitter-ts
+npm install eventemitter-strict
 ```
 
 ## Usage
 
 ```typescript
-import { EventEmitter } from 'eventemitter-ts';
+import { EventEmitter } from 'eventemitter-strict';
 
 interface FooEventMap {
   eventA: () => void;
@@ -37,7 +37,7 @@ ee.emit('eventB', "Any"); // this will throw error in ts
 or use with extends
 
 ```typescript
-import { EventEmitter } from 'eventemitter-ts';
+import { EventEmitter } from 'eventemitter-strict';
 
 interface FooEventMap {
   eventA: () => void;
